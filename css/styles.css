@@ -7,8 +7,6 @@
 body {
   background-color: #050505;
   padding-top: 5rem;
-  padding-right: 5rem;
-  padding-left: 5rem;
 }
 
 .first-section {
@@ -17,6 +15,8 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
+  padding-right: 5rem;
+  padding-left: 5rem;
 }
 
 .subscribe {
@@ -32,7 +32,7 @@ body {
 
 .subscribe > h1 {
   font-family: "Nunito", sans-serif;
-  font-size: 4rem;
+  font-size: 4.5rem;
   font-weight: 700;
   color: #fff;
 }
@@ -79,6 +79,7 @@ body {
   font-size: 20px;
   line-height: 27px;
   color: rgba(255, 255, 255, 0.8);
+  text-transform: uppercase;
 }
 
 .subscribe-button {
@@ -92,4 +93,103 @@ body {
   font-size: 20px;
   line-height: 27px;
   color: #fff;
+  text-transform: uppercase;
+}
+
+.second-section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 500px;
+  background: url("../imgs/Luzes.svg") no-repeat;
+  margin-top: 200px;
+}
+
+.second-section > h2 {
+  color: #fff;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3.5rem;
+  line-height: 100%;
+  margin-left: 300px;
+}
+
+.second-section > h2 > span {
+  background: linear-gradient(
+    90deg,
+    #ff0766 0%,
+    #ff3a61 32.81%,
+    #fd765e 67.19%,
+    #ff0766 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: black;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 200px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.card {
+  width: 420px;
+  height: 420px;
+  background-color: #fff;
+  border-radius: 8px;
+  background: linear-gradient(
+    180deg,
+    rgba(32, 33, 35, 0) 13.02%,
+    #202123 61.46%
+  );
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  padding: 40px;
+}
+
+.card > img {
+  position: absolute;
+  z-index: -1;
+}
+
+.cod {
+  top: -100px;
+}
+
+.wow {
+  top: -50px;
+}
+
+.ironman {
+  top: -100px;
+}
+
+.card > h3 {
+  color: #fff;
+  margin-top: 150px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.3rem;
+  line-height: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.card > p {
+  color: #fff;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 27px;
+  text-align: center;
 }
